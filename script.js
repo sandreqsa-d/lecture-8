@@ -13,7 +13,7 @@ const confirmPasswordError = document.querySelector(".confError");
 
 const namePattern = /^[A-Z][a-z]+ [A-Z][a-z]+$/
 const emailPattern = /^[a-zA-Z0-9]+@[a-zA-Z]+\.[a-zA-Z]+$/
-const HardPasswordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]){8,}+$/
+const HardPasswordPattern = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&]){8,}/
 
 
 form.addEventListener("submit", (e) => {
