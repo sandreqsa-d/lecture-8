@@ -1,0 +1,223 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #F5F7FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Hanken Grotesk", sans-serif;
+}
+
+.main {
+    width: 736px;
+    display: flex;
+    align-items: center;
+    border-radius: 32px;
+    background: white;
+    box-shadow: 0px 1px 3px rgba(16, 24, 40, 0.1), 0px 1px 2px rgba(16, 24, 40, 0.06);
+    border-radius: 32px;
+    gap: 40px;
+}
+
+.purpleBlock {
+    padding: 38px 56px 46px 56px;
+    border-radius: 32px;
+    width: 368px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    border-radius: 32px;
+}
+
+.purpleBlock .result {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    color: #CAC9FF;
+
+}
+
+h1 {
+    font-size: 81px;
+    font-weight: 700;
+    color: white;
+}
+
+.numRing {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 28px;
+}
+
+.numRing p {
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+    color: #CAC9FF;
+}
+
+.undText {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.undText p {
+    color: #CAC9FF;
+}
+
+.undText h2 {
+    font-size: 32px;
+    color: white;
+}
+
+.summery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.summaryItems {
+    width: 288px;
+
+    opacity: 1;
+    top: 381px;
+    left: 760px;
+    margin-top: 28px;
+    margin-bottom: 41px;
+}
+
+.item1 {
+    background-color: rgba(255, 85, 85, 0.15);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+    color: #FF5555;
+    justify-content: space-between;
+}
+
+.item2 {
+    background-color: rgba(255, 184, 0, 0.15);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+    color: #FFB800;
+    justify-content: space-between;
+}
+
+.item3 {
+    background-color: rgba(0, 199, 115, 0.15);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+    color: #00C773;
+    justify-content: space-between;
+}
+
+.item4 {
+    background-color: rgba(0, 51, 255, 0.15);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    gap: 16px;
+    margin-bottom: 16px;
+    color: #707175;
+    justify-content: space-between;
+}
+
+
+span {
+    color: #303B59;
+}
+
+.summaryItems h3 {
+    color: black;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-weight: 700;
+}
+
+.HasSVG {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.HasSVG p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 100%;
+    letter-spacing: 0px;
+
+}
+
+button {
+    padding: 16.5px;
+    width: 100%;
+    background: linear-gradient(180deg, #7755FF 0%, #6943FF 0.01%, #2F2CE9 100%);
+    border-radius: 24px;
+    border: none;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: white;
+    margin-bottom: 46px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 750px) {
+    .main {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .purpleBlock {
+        width: 100%;
+    }
+
+    .summary {
+        padding: 25px;
+        width: 100%;
+        padding-block: 30px;
+    }
+
+    .summaryItems {
+        width: 100%;
+    }
+
+}
